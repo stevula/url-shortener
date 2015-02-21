@@ -161,7 +161,7 @@ You may find them easier to memorize if you have help from [HTTP status cats][]
 * [HTTP status cats][]
 
 [bitly]: http://bitly.com/
-[ActiveRecord validations]: http://guides.rubyonrails.org/active_record_validations.html.
+[ActiveRecord validations]: http://guides.rubyonrails.org/active_record_validations.html
 [URI module]: http://www.ruby-doc.org/stdlib-1.9.3/libdoc/uri/rdoc/URI.html
 [custom validations]: http://guides.rubyonrails.org/active_record_validations.html#performing-custom-validations
 [create]: http://apidock.com/rails/ActiveRecord/Base/create/class
