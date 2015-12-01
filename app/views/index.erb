@@ -20,4 +20,14 @@
       <td><code><%= File.expand_path('../../controllers/index.rb', __FILE__).gsub(Sinatra::Application.root, '') %></code></td>
     </tr>
   </table>
+  <form action="/urls" method='POST'>
+    <input type="text" name="long_url_input">
+    <input type='submit'>
+  </form>
+  <ul>
+    <% Url.all.each do |url| %>
+      <li><a href='<%= url.short_url %>'><%= url.short_url%></a></li>
+    <%end%>
+  </ul>
+
 </div>
